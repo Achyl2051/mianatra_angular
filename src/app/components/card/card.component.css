@@ -1,0 +1,30 @@
+#card{
+  display: block;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+  background-color: rgb(221,221,221);
+}
+
+#inside{
+  padding: 5px;
+  background-color: deepskyblue;
+}
+
+header{
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  .left, .right{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .right{
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+}
